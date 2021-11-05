@@ -1,0 +1,169 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+	margin:0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #292c2f;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    
+}
+
+h1{
+    font-size: 120%;
+    font-style: italic;
+}
+
+main{
+    padding: 2%;
+}
+
+.allvalley{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+}    
+
+.miyagi{
+    position: relative;
+}
+
+.nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.current a{
+    background-color: #800000;
+    font-style: italic;
+}
+
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+footer{
+    margin: 0 0 0 0 ;
+}
+
+.footer-general {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 35px 50px;
+  clear: both;
+  overflow: hidden;
+  position: static;
+  bottom: 0;
+}
+
+.footer-general .footer-left p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-general p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-general p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-general .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-general .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-general p.footer-links a:hover{text-decoration:underline;}
+
+
+/* flex grid */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+/*movie review*/
+
+.getout {
+    padding: 20px;
+}
+
+.getoutp1, .getoutp2, .getoutp3 {
+    padding: 20px;
+}
+
+/* tv review */
+
+.mon {
+    padding: 20px;
+}
+
+.monp1, .monp2, .monp3 {
+    padding: 20px;
+}
